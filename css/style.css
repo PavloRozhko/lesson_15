@@ -120,7 +120,7 @@ body{
 	position: absolute;
 	top: 0;
 	left: 0;
-	scale: 1.6;
+	transform: scale(1.6);
 	animation: scale-up-center 0.8s cubic-bezier(0.075, 0.820, 0.165, 1.000) infinite alternate forwards;
 }
 @keyframes scale-up-center {
@@ -128,7 +128,7 @@ body{
 		transform: scale(0.5);
 	}
 	100% {
-		transform: scale(1);
+		transform: scale(1.6);
 	}
 }
 .info-main__title {
